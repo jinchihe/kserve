@@ -344,11 +344,11 @@
                   },
                   {
                     name: "gitconfig",
-                    mountPath: "/root/.gitconfig",
+                    mountPath: "/root",
                   },
                   {
                     name: "git-credentials",
-                    mountPath: "/root/.git-credentials",
+                    mountPath: "/root",
                   },
                 ],
               },

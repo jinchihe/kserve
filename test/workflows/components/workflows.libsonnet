@@ -169,6 +169,14 @@
                 name: "aws-secret",
                 mountPath: "/root/.aws/",
               },
+              {
+                name: "gitconfig",
+                mountPath: "/root/.gitconfig",
+              },
+              {
+                name: "git-credentials",
+                mountPath: "/root/.git-credentials",
+              },
             ],
           },
         },  // buildTemplate
@@ -204,6 +212,18 @@
               name: "aws-secret",
               secret: {
                 secretName: "aws-secret",
+              },
+            },
+            {
+              name: "gitconfig",
+              configMap: {
+                name:  "gitconfig",
+              },
+            },
+            {
+              name: "git-credentials",
+              configMap: {
+                name: "git-credentials",
               },
             },
           ],  // volumes

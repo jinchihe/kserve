@@ -169,7 +169,7 @@
                 name: "aws-secret",
                 mountPath: "/root/.aws/",
               },
-           ],
+            ],
           },
         },  // buildTemplate
 

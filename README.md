@@ -1,4 +1,4 @@
-# KFServing
+# KServe
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white)](https://pkg.go.dev/github.com/kubeflow/kfserving)
 [![Coverage Status](https://coveralls.io/repos/github/kubeflow/kfserving/badge.svg?branch=master)](https://coveralls.io/github/kubeflow/kfserving?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/kubeflow/kfserving)](https://goreportcard.com/report/github.com/kubeflow/kfserving)

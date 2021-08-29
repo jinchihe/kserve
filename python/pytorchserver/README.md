@@ -1,6 +1,6 @@
 # PyTorch Server
 
-[PyTorch](https://PyTorch.org) server is an implementation of KFServing for serving PyTorch models, and provides a PyTorch model implementation for prediction, pre and post processing.
+[PyTorch](https://PyTorch.org) server is an implementation for serving PyTorch models, and provides a PyTorch model implementation for prediction, pre and post processing.
 
 To start the server locally for development needs, run the following command under this folder in your github repository.
 
@@ -19,7 +19,7 @@ usage: __main__.py [-h] [--http_port HTTP_PORT] [--grpc_port GRPC_PORT]
 __main__.py: error: the following arguments are required: --model_dir
 ```
 
-You can now point to your `pytorch` model directory and use the server to load the model and test for prediction. Model and associaed model class file can be on local filesystem, S3 compatible object storage, Azure Blob Storage, or Google Cloud Storage. Please follow [this sample](https://github.com/kubeflow/kfserving/tree/master/docs/samples/pytorch) to test your server by generating your own model. 
+You can now point to your `pytorch` model directory and use the server to load the model and test for prediction. Model and associaed model class file can be on local filesystem, S3 compatible object storage, Azure Blob Storage, or Google Cloud Storage. Please follow [this sample](https://github.com/kserve/kserve/tree/master/docs/samples/v1alpha2/pytorch) to test your server by generating your own model. 
 
 ## Development
 
@@ -33,19 +33,6 @@ To run tests, please change the test file to point to your model.pt file. Then r
 
 ```bash
 make test
-```
-
-The following shows the type of output you should see:
-
-```
-pytest -W ignore
-=========================================================== test session starts ============================================================
-platform darwin -- Python 3.7.3, pytest-4.5.0, py-1.8.0, pluggy-0.11.0
-rootdir: /Users/animeshsingh/go/src/github.com/kubeflow/kfserving/python/pytorchserver
-plugins: tornasync-0.6.0.post1
-collected 1 item                                                                                                                           
-
-pytorchserver/test_model.py .                        
 ```
 
 To run static type checks:

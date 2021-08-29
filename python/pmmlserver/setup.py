@@ -22,7 +22,7 @@ tests_require = [
 ]
 setup(
     name='pmmlserver',
-    version='0.6.0',
+    version='0.7.0rc0',
     author_email='anyisalin@gmail.com',
     license='https://github.com/kserve/kserve/LICENSE',
     url='https://github.com/kserve/kserve/python/pmmlserver',

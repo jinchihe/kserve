@@ -1,14 +1,13 @@
 # Lightgbm Server
 
-[LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html ) server is an implementation of KFServing for serving LightGBM models, and provides an LightGBM model implementation for prediction, pre and post processing. In addition, model lifecycle management functionalities like liveness handler, metrics handler etc. are supported. 
+[LightGBM](https://lightgbm.readthedocs.io/en/latest/index.html ) server is an implementation for serving LightGBM models, and provides an LightGBM model implementation for prediction, pre and post processing. In addition, model lifecycle management functionalities like liveness handler, metrics handler etc. are supported. 
 
-To start the server locally for development needs, run the following command under this folder in your github repository. Also please ensure you have installed the [kfserving](../kfserving) before.
+To start the server locally for development needs, run the following command under this folder in your github repository. Also please ensure you have installed the [kserve](../kserve) before.
 
 ```
 pip install -e .
 ```
 
-```
 Once LightGBM server is up and running, you can check for successful installation by running the following command
 
 ```
@@ -18,7 +17,7 @@ usage: __main__.py [-h] [--http_port HTTP_PORT] [--grpc_port GRPC_PORT]
 __main__.py: error: the following arguments are required: --model_dir
 ```
 
-You can now point to your model file and use the server to load the model and test for prediction. Models can be on local filesystem, S3 compatible object storage, Azure Blob Storage, or Google Cloud Storage. Please follow [this sample](https://github.com/kubeflow/kfserving/tree/master/docs/samples/lightgbm) to test your server by generating your own model. 
+You can now point to your model file and use the server to load the model and test for prediction. Models can be on local filesystem, S3 compatible object storage, Azure Blob Storage, or Google Cloud Storage. Please follow [this sample](https://github.com/kserve/kserve/tree/master/docs/samples/v1beta1/lightgbm) to test your server by generating your own model. 
 
 
 ## Development
@@ -33,22 +32,6 @@ To run tests:
 
 ```bash
 make test
-```
-
-The following shows the type of output you should see:
-
-```
-pytest -W ignore
-================================================= test session starts =================================================
-platform linux -- Python 3.7.3, pytest-4.4.2, py-1.8.0, pluggy-0.11.0
-rootdir: /home/clive/go/src/github.com/kubeflow/kfserving/python/xgbserver
-plugins: tornasync-0.6.0.post1
-collected 2 items                                                                                                     
-
-lgbserver/test_model.py ..                                                                                      [100%]
-
-============================================== 2 passed in 0.44 seconds ===============================================
-
 ```
 
 To run static type checks:

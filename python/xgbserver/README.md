@@ -1,8 +1,8 @@
 # XGBoost Server
 
-[XGBoost](https://xgboost.readthedocs.io/en/latest/index.html ) server is an implementation of KFServing for serving XGBoost models, and provides an XGBoost model implementation for prediction, pre and post processing. In addition, model lifecycle management functionalities like liveness handler, metrics handler etc. are supported. 
+[XGBoost](https://xgboost.readthedocs.io/en/latest/index.html ) server is an implementation for serving XGBoost models, and provides an XGBoost model implementation for prediction, pre and post processing. In addition, model lifecycle management functionalities like liveness handler, metrics handler etc. are supported. 
 
-To start the server locally for development needs, run the following command under this folder in your github repository. Also please ensure you have installed the [kfserving](../kfserving) before.
+To start the server locally for development needs, run the following command under this folder in your github repository. Also please ensure you have installed the [kserve](../kserve) before.
 
 ```
 pip install -e .

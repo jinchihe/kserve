@@ -23,7 +23,7 @@ tests_require = [
 
 setup(
     name='lgbserver',
-    version='0.6.0',
+    version='0.7.0rc0',
     author_email='linyiming@ainnovation.com',
     license='../../LICENSE.txt',
     url='https://github.com/kserve/kserve/python/lgbserver',

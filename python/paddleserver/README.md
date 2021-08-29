@@ -1,6 +1,6 @@
 # Paddle Server
 
-[Paddle](https://www.paddlepaddle.org.cn/) server is an implementation of KFServing for serving Paddle models, and provides a Paddle model implementation for prediction, pre and post processing.
+[Paddle](https://www.paddlepaddle.org.cn/) server is an implementation for serving Paddle models, and provides a Paddle model implementation for prediction, pre and post processing.
 
 To start the server locally for development needs, run the following command under this folder in your github repository.
 ``` console

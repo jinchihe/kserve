@@ -144,7 +144,7 @@ kubectl apply -f docs/samples/${API_VERSION}/sklearn/v1/sklearn.yaml -n kserve-t
 ```bash
 kubectl get inferenceservices sklearn-iris -n kserve-test
 NAME           URL                                                 READY   PREV   LATEST   PREVROLLEDOUTREVISION   LATESTREADYREVISION                    AGE
-sklearn-iris   http://sklearn-iris.kserve-test.example.com      True           100                              sklearn-iris-predictor-default-47q2g   7d23h
+sklearn-iris   http://sklearn-iris.kserve-test.example.com         True           100                              sklearn-iris-predictor-default-47q2g   7d23h
 ```
 If your DNS contains example.com please consult your admin for configuring DNS or using [custom domain](https://knative.dev/docs/serving/using-a-custom-domain).
 

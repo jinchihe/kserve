@@ -214,7 +214,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 							PredictorExtensionSpec: v1beta1.PredictorExtensionSpec{
 								RuntimeVersion: proto.String("1.14.0"),
 								Container: v1.Container{
-									Name:      "kfserving-container",
+									Name:      "kserve-container",
 									Resources: defaultResource,
 								},
 							},
@@ -322,7 +322,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 							PredictorExtensionSpec: v1beta1.PredictorExtensionSpec{
 								RuntimeVersion: proto.String("1.14.0"),
 								Container: v1.Container{
-									Name:      "kfserving-container",
+									Name:      "kserve-container",
 									Resources: defaultResource,
 								},
 							},
@@ -476,7 +476,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 							PredictorExtensionSpec: v1beta1.PredictorExtensionSpec{
 								RuntimeVersion: proto.String("1.14.0"),
 								Container: v1.Container{
-									Name:      "kfserving-container",
+									Name:      "kserve-container",
 									Resources: defaultResource,
 								},
 							},
@@ -604,7 +604,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 							PredictorExtensionSpec: v1beta1.PredictorExtensionSpec{
 								RuntimeVersion: proto.String("1.14.0"),
 								Container: v1.Container{
-									Name:      "kfserving-container",
+									Name:      "kserve-container",
 									Resources: defaultResource,
 								},
 							},
@@ -735,7 +735,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 							PredictorExtensionSpec: v1beta1.PredictorExtensionSpec{
 								RuntimeVersion: proto.String("1.14.0"),
 								Container: v1.Container{
-									Name:      "kfserving-container",
+									Name:      "kserve-container",
 									Resources: defaultResource,
 								},
 							},
@@ -864,7 +864,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 							PredictorExtensionSpec: v1beta1.PredictorExtensionSpec{
 								RuntimeVersion: proto.String("1.14.0"),
 								Container: v1.Container{
-									Name:      "kfserving-container",
+									Name:      "kserve-container",
 									Resources: defaultResource,
 								},
 								StorageURI: &storageUri,

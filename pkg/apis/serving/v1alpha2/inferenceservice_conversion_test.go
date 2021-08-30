@@ -48,7 +48,7 @@ func TestInferenceServiceConversion(t *testing.T) {
 							},
 							Custom: &CustomSpec{
 								Container: v1.Container{
-									Name:  "kfserving-container",
+									Name:  "kserve-container",
 									Image: "custom-predictor:v1",
 									Resources: v1.ResourceRequirements{
 										Requests: v1.ResourceList{
@@ -81,7 +81,7 @@ func TestInferenceServiceConversion(t *testing.T) {
 						PodSpec: v1beta1.PodSpec{
 							Containers: []v1.Container{
 								{
-									Name:  "kfserving-container",
+									Name:  "kserve-container",
 									Image: "custom-predictor:v1",
 									Resources: v1.ResourceRequirements{
 										Requests: v1.ResourceList{
@@ -115,7 +115,7 @@ func TestInferenceServiceConversion(t *testing.T) {
 							},
 							Custom: &CustomSpec{
 								Container: v1.Container{
-									Name:  "kfserving-container",
+									Name:  "kserve-container",
 									Image: "custom-predictor:v1",
 									Resources: v1.ResourceRequirements{
 										Requests: v1.ResourceList{
@@ -151,7 +151,7 @@ func TestInferenceServiceConversion(t *testing.T) {
 						PodSpec: v1beta1.PodSpec{
 							Containers: []v1.Container{
 								{
-									Name:  "kfserving-container",
+									Name:  "kserve-container",
 									Image: "custom-predictor:v1",
 									Resources: v1.ResourceRequirements{
 										Requests: v1.ResourceList{
@@ -201,7 +201,7 @@ func TestInferenceServiceConversion(t *testing.T) {
 							},
 							Custom: &CustomSpec{
 								Container: v1.Container{
-									Name:  "kfserving-container",
+									Name:  "kserve-container",
 									Image: "transformer:v1",
 									Resources: v1.ResourceRequirements{
 										Requests: v1.ResourceList{
@@ -247,7 +247,7 @@ func TestInferenceServiceConversion(t *testing.T) {
 						PodSpec: v1beta1.PodSpec{
 							Containers: []v1.Container{
 								{
-									Name:  "kfserving-container",
+									Name:  "kserve-container",
 									Image: "transformer:v1",
 									Resources: v1.ResourceRequirements{
 										Requests: v1.ResourceList{

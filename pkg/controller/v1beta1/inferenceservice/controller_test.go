@@ -622,7 +622,7 @@ var _ = Describe("v1beta1 inference service controller", func() {
 								PodSpec: v1.PodSpec{
 									Containers: []v1.Container{
 										{
-											Name:  "kfserving-container",
+											Name:  "kserve-container",
 											Image: "kfserving/alibi-explainer:0.4.0",
 											Args: []string{
 												"--model_name",

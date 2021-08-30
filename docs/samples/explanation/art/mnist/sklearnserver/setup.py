@@ -24,7 +24,7 @@ setup(
     name='sklearnserver',
     version='0.4.0',
     author_email='singhan@us.ibm.com',
-    license='https://github.com/kubeflow/kfserving/LICENSE',
+    license='https://github.com/kserve/kserve/LICENSE',
     url='https://github.com/kubeflow/kfserving/python/sklearnserver',
     description='Model Server implementation for scikit-learn. \
                  Not intended for use outside KFServing Frameworks Images',

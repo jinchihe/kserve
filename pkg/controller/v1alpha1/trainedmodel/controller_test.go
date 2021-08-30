@@ -118,7 +118,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}
@@ -188,7 +188,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}
@@ -296,7 +296,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}
@@ -450,7 +450,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}
@@ -578,7 +578,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}
@@ -709,7 +709,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}
@@ -838,7 +838,7 @@ var _ = Describe("v1beta1 TrainedModel controller", func() {
 			var configMap = &v1.ConfigMap{
 				ObjectMeta: metav1.ObjectMeta{
 					Name:      constants.InferenceServiceConfigMapName,
-					Namespace: constants.KFServingNamespace,
+					Namespace: constants.KServeNamespace,
 				},
 				Data: configs,
 			}

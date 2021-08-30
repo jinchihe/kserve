@@ -23,7 +23,7 @@ setup(
     name='rfserver',
     version='0.2.1',
     author_email='Andrew.Butler@ibm.com',
-    license='https://github.com/kubeflow/kfserving/LICENSE',
+    license='https://github.com/kserve/kserve/LICENSE',
     url='https://github.com/kubeflow/kfserving/python/rfserver',
     description='Model Server implementation for AI eXplainability using LIME. \
                  Not intended for use outside KFServing Frameworks Images',

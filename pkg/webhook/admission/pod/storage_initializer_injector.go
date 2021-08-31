@@ -30,7 +30,7 @@ const (
 	StorageInitializerContainerName         = "storage-initializer"
 	StorageInitializerConfigMapKeyName      = "storageInitializer"
 	StorageInitializerVolumeName            = "kserve-provision-location"
-	StorageInitializerContainerImage        = "gcr.io/kserve/storage-initializer"
+	StorageInitializerContainerImage        = "kserve/storage-initializer"
 	StorageInitializerContainerImageVersion = "latest"
 	PvcURIPrefix                            = "pvc://"
 	PvcSourceMountName                      = "kserve-pvc-source"

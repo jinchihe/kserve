@@ -125,7 +125,7 @@ export INGRESS_PORT=8080
 <details>
   <summary>Expand to see steps for testing the installation!</summary>
 
-#### Check ontroller installation
+#### Verify installation
 ```shell
 kubectl get po -n kserve
 NAME                             READY   STATUS    RESTARTS   AGE
